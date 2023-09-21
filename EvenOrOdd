@@ -1,0 +1,13 @@
+import java.util.Scanner;
+ public class EvenOrOdd {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner Scanner = new Scanner(System.in);
+			System.out.print("Enter a number: ");
+			int num = Scanner.nextInt();
+			String result = (num % 2 == 0) ? "even" : "odd";
+			System.out.println(num + " is " + result);
+			Scanner.close();
+	}
+
+}
